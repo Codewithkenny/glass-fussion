@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topnav {
+    width: 100%;
+    max-height: 20vh;
+    /* overflow: hidden; */
+    background-color: #001;
+    /* position: relative; */
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+ul {
+    display: inline-flex;
+    gap: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.nav-links {
+    color: #000;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* #main {
+    margin-top: -100px;
+} */
+
+/* .topnav__left {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+} */
+
+.topnav__left i {
+    margin-left: 100px;
+}
+
+.topnav__left a:hover {
+    color: blue;
+}
+
+.topnav a {
+    color: #fff;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+
+/* .logo__header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    column-gap: 50px;
+} */
+
+.logo {
+    font-size: 7rem;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.logo a {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-style: oblique;
+}
+
+.logo a:hover {
+    color: blue;
+}
+
+
+.openbtn {
+    padding-top: 200px;
+    margin-bottom: 250px;
+}
+
+.fa-search {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.fa-facebook {
+    color: #001;
+    font-size: 30px;
+}
+
+.fa-instagram {
+    color: #001;
+    font-size: 30px;
+}
+
+.fa-twitter {
+    color: #001;
+    font-size: 30px;
+}
+
+
+.ft__txt {
+    text-align: center;
+
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    padding-top: 120px;
+}
+
+.row {
+    padding-top: 50px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    align-items: center;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller
+    font
+    size) */
+@media screen and (max-height: 992px) {
+    .topnav__left {
+        display: none;
+
+    }
+
+    /* Smartphones (portrait and landscape) ----------- */
+    @media only screen and (max-device-width : 992px) {}
+
+    /* .hero {
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: whitesmoke; */
+    /* padding-top: 120px; */
+}
+
+*/ .row {
+    padding-top: 50px;
+}
